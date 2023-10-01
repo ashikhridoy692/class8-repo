@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background-image: url(./image/Screenshot_14.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-head {
+    text-align: center;
+
+
+
+
+}
+
+.banner-main {
+    text-align: center;
+}
+
+
+
+.banner-head h1 {
+    font-size: 40px;
+    color: white;
+    font-family: cursive;
+    font-weight: 700;
+    transition: 3s all ease;
+}
+.banner-head h1:hover{
+    color: tomato;
+    transition: 3s all ease;
+
+
+}
+
+.banner-head p {
+    font-size: 18px;
+    width: 400px;
+    color: white;
+    font-family: cursive;
+    margin-top: 40px;
+}
+
+.btn button {
+
+    margin-top: 30px;
+    font-size: 20px;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: cursive;
+    font-weight: 200px;
+    cursor: pointer;
+    transition: 3s all ease;
+    
+}
+.btn button :hover{
+    background: linear-gradient(to right, #f12711, #eaa510);
+    transition: 3s background ease;
+    color: rgb(208, 210, 79);
+}
